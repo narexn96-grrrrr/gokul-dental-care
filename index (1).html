@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Gokul Dental Care – Iyerbungalow Branch, Madurai</title>
+<style>
+:root{--bg:#f3fafa;--surface:#fff;--text:#0f2c35;--muted:#52707a;--brand:#0a8f8f;--brand2:#14b8a6;--brand-d:#076b6b;--accent:#e3f5f4;--border:#d0e5e6;--shadow:0 10px 30px rgba(10,100,110,.12);--wa:#1fa855;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1a1e;--surface:#13272d;--text:#e8f3f4;--muted:#9fb9be;--brand:#3cc4c4;--brand2:#2dd4bf;--brand-d:#7be0e0;--accent:#173238;--border:#24424a;--shadow:0 10px 30px rgba(0,0,0,.35);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1a1e;--surface:#13272d;--text:#e8f3f4;--muted:#9fb9be;--brand:#3cc4c4;--brand2:#2dd4bf;--brand-d:#7be0e0;--accent:#173238;--border:#24424a;--shadow:0 10px 30px rgba(0,0,0,.35);color-scheme:dark}
+html{scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;line-height:1.65;padding-bottom:76px}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--surface);z-index:10}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--surface);border-bottom:1px solid var(--border);z-index:11}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:62px}
+.logo{font-weight:800;color:var(--brand-d);text-decoration:none;font-size:1.1rem}
+nav{display:flex;align-items:center;gap:20px}
+nav a{color:var(--muted);text-decoration:none;font-size:.95rem;font-weight:500}
+nav a:hover{color:var(--brand)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;padding:12px 24px;border-radius:999px;text-decoration:none;font-weight:700;border:0;font-size:1rem;cursor:pointer;box-shadow:0 6px 16px rgba(10,143,143,.3);transition:transform .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn.alt{background:var(--surface);color:var(--brand-d);border:2px solid var(--brand);box-shadow:none}
+.btn.wa{background:var(--wa);box-shadow:0 6px 16px rgba(31,168,85,.3)}
+.btn.sm{min-height:40px;padding:8px 18px;color:#fff}
+.hero{background:linear-gradient(160deg,var(--accent),var(--bg) 70%);overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:32px;align-items:center;padding-top:56px;padding-bottom:56px}
+.pill{display:inline-block;background:var(--surface);color:var(--brand-d);padding:6px 14px;border-radius:999px;font-size:.88rem;font-weight:700;border:1px solid var(--border)}
+h1{font-size:clamp(2.1rem,6vw,3.4rem);line-height:1.1;margin:16px 0;letter-spacing:-.02em}
+h1 span{color:var(--brand)}
+.hero p{color:var(--muted);font-size:1.12rem;max-width:520px}
+.cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.art{display:flex;justify-content:center}
+.art svg{width:100%;max-width:300px;filter:drop-shadow(0 16px 28px rgba(10,100,110,.25));animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-10px)}}
+@media (prefers-reduced-motion:reduce){.art svg{animation:none}.btn{transition:none}}
+.trust{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}
+.trust span{background:var(--surface);border:1px solid var(--border);border-radius:12px;padding:8px 14px;font-size:.9rem;font-weight:600}
+section{padding:56px 0}
+h2{font-size:clamp(1.6rem,4vw,2.1rem);margin:0 0 6px;letter-spacing:-.01em}
+.sub{color:var(--muted);margin:0 0 28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:20px;padding:22px;box-shadow:var(--shadow)}
+.card h3{margin:10px 0 4px;font-size:1.08rem}
+.card p{margin:0;color:var(--muted);font-size:.96rem}
+.ico{width:52px;height:52px;border-radius:14px;background:var(--accent);display:grid;place-items:center;font-size:1.6rem}
+.steps{counter-reset:s}
+.step{position:relative;padding-top:6px}
+.step::before{counter-increment:s;content:counter(s);display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;font-weight:800;margin-bottom:10px}
+.band{background:var(--accent)}
+.book{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start}
+label{display:block;font-weight:600;font-size:.92rem;margin:14px 0 6px}
+input,select{width:100%;min-height:50px;padding:12px 14px;border-radius:12px;border:1.5px solid var(--border);background:var(--bg);color:var(--text);font-size:1rem;font-family:inherit}
+input:focus,select:focus{outline:3px solid var(--brand2);outline-offset:1px;border-color:var(--brand)}
+.book .btn{width:100%;margin-top:20px}
+.note{font-size:.85rem;color:var(--muted);margin-top:10px}
+table{width:100%;border-collapse:collapse}
+td{padding:10px 0;border-bottom:1px solid var(--border)}
+td:last-child{text-align:right;color:var(--muted)}
+.row{display:flex;gap:12px;margin-top:6px}
+.row b{display:block}
+details{background:var(--surface);border:1px solid var(--border);border-radius:14px;padding:14px 18px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}
+details p{margin:8px 0 0;color:var(--muted)}
+footer{padding:28px 0;text-align:center;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border)}
+.bar{position:fixed;left:0;right:0;bottom:0;display:none;gap:10px;padding:10px 14px calc(10px + env(safe-area-inset-bottom,0px));background:var(--surface);border-top:1px solid var(--border);z-index:12}
+.bar .btn{flex:1}
+@media(max-width:760px){
+ .hero .wrap,.book{grid-template-columns:1fr}
+ .art{order:-1}.art svg{max-width:190px}
+ nav a:not(.btn){display:none}
+ .bar{display:flex}
+ body{padding-bottom:84px}
+}
+@media(min-width:761px){body{padding-bottom:0}}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#top">🦷 Gokul Dental Care</a>
+<nav><a href="#services">Services</a><a href="#book">Book</a><a href="#visit">Visit</a><a class="btn sm" href="tel:08838255407">📞 Call now</a></nav>
+</div></header>
+
+<main id="top">
+<div class="hero"><div class="wrap">
+<div>
+<span class="pill">★ 5.0 on Google · Iyerbungalow Branch</span>
+<h1>Gentle dental care for a <span>healthy, confident smile</span></h1>
+<p>Friendly, clean and comfortable dental care for the whole family in Tiruppalai, Madurai.</p>
+<div class="cta"><a class="btn" href="#book">Book appointment</a><a class="btn alt" href="tel:08838255407">📞 088382 55407</a></div>
+<div class="trust"><span>✓ Whole-family care</span><span>✓ Hygienic clinic</span><span>✓ Easy to reach</span></div>
+</div>
+<div class="art" aria-hidden="true">
+<svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#cdeeee"/></linearGradient></defs><path d="M100 14c-22-12-60-10-70 22-8 26 6 44 10 70 4 24 4 60 20 78 10 12 20-4 24-26 3-14 6-22 16-22s13 8 16 22c4 22 14 38 24 26 16-18 16-54 20-78 4-26 18-44 10-70-10-32-48-34-70-22z" fill="url(#g)" stroke="#14b8a6" stroke-width="5" stroke-linejoin="round"/><path d="M62 52c6-8 18-10 26-6" stroke="#fff" stroke-width="6" stroke-linecap="round" fill="none"/><path d="M150 28l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#14b8a6"/><path d="M40 160l3 7 7 3-7 3-3 7-3-7-7-3 7-3z" fill="#0a8f8f"/></svg>
+</div>
+</div></div>
+
+<section id="services"><div class="wrap">
+<h2>Our services</h2><p class="sub">Everything you need for healthy teeth, under one roof.</p>
+<div class="grid">
+<div class="card"><div class="ico">🪥</div><h3>Check-ups &amp; Cleaning</h3><p>Routine exams, scaling and polishing to keep gums and teeth healthy.</p></div>
+<div class="card"><div class="ico">🦷</div><h3>Fillings &amp; Root Canal</h3><p>Comfortable treatment to save and restore damaged teeth.</p></div>
+<div class="card"><div class="ico">👑</div><h3>Crowns &amp; Bridges</h3><p>Natural-looking restorations for broken or missing teeth.</p></div>
+<div class="card"><div class="ico">😁</div><h3>Braces &amp; Aligners</h3><p>Straighter teeth for children, teens and adults.</p></div>
+<div class="card"><div class="ico">✨</div><h3>Whitening</h3><p>Brighten your smile and boost your confidence.</p></div>
+<div class="card"><div class="ico">👶</div><h3>Children’s Dentistry</h3><p>Gentle care that keeps little patients relaxed.</p></div>
+</div>
+</div></section>
+
+<section class="band"><div class="wrap">
+<h2>How it works</h2><p class="sub">Getting care is simple.</p>
+<div class="grid steps">
+<div class="step"><h3>Call or message us</h3><p style="color:var(--muted);margin:0">Tell us what you need and pick a time that suits you.</p></div>
+<div class="step"><h3>Visit the clinic</h3><p style="color:var(--muted);margin:0">We examine your teeth and explain your options clearly.</p></div>
+<div class="step"><h3>Smile with confidence</h3><p style="color:var(--muted);margin:0">Get treated comfortably and leave with a plan for lasting care.</p></div>
+</div>
+</div></section>
+
+<section id="book"><div class="wrap book">
+<div>
+<h2>Book an appointment</h2>
+<p class="sub">Fill in your details and we’ll open WhatsApp with your request ready to send.</p>
+<div class="card">
+<label for="n">Your name</label><input id="n" type="text" placeholder="Enter your name" autocomplete="name">
+<label for="s">Treatment needed</label>
+<select id="s"><option>Check-up &amp; Cleaning</option><option>Tooth pain</option><option>Filling / Root Canal</option><option>Crown / Bridge</option><option>Braces / Aligners</option><option>Whitening</option><option>Children’s dentistry</option><option>Other</option></select>
+<label for="d">Preferred day</label><input id="d" type="text" placeholder="e.g. Tomorrow evening">
+<button class="btn wa" id="go" type="button">💬 Send on WhatsApp</button>
+<p class="note">Prefer to talk? <a href="tel:08838255407" style="color:var(--brand-d);font-weight:600">Call 088382 55407</a></p>
+</div>
+</div>
+<div>
+<h2>Common questions</h2>
+<p class="sub">Quick answers before you visit.</p>
+<details><summary>Do I need an appointment?</summary><p>Calling ahead is best so we can keep your waiting time short.</p></details>
+<details><summary>Do you treat children?</summary><p>Yes, we welcome patients of all ages.</p></details>
+<details><summary>What should I bring?</summary><p>Just yourself. If you have old dental records or X-rays, bring them along.</p></details>
+<details><summary>Where are you located?</summary><p>Krishna Nagar 2nd Main Road, Tiruppalai, Madurai. See the map link below.</p></details>
+</div>
+</div></section>
+
+<section id="visit" class="band"><div class="wrap">
+<h2>Visit the clinic</h2><p class="sub">We’re easy to find in Tiruppalai.</p>
+<div class="grid" style="grid-template-columns:repeat(auto-fit,minmax(280px,1fr))">
+<div class="card">
+<div class="row"><span>📍</span><div><b>Address</b><span style="color:var(--muted)">Gokul Dental Care, Iyerbungalow Branch<br>Krishna Nagar 2nd Main Road, Angala Parameswari Nagar, Tiruppalai, Madurai, Tamil Nadu 625014</span></div></div>
+<div class="row" style="margin-top:14px"><span>📞</span><div><b>Phone</b><a href="tel:08838255407" style="color:var(--brand-d);font-weight:700">088382 55407</a></div></div>
+<div class="cta"><a class="btn" href="https://www.google.com/maps/search/?api=1&query=Gokul+Dental+Care+Iyerbungalow+Madurai" target="_blank" rel="noopener">🧭 Get directions</a></div>
+</div>
+<div class="card">
+<b>🕘 Opening hours</b>
+<table><tr><td>Monday – Friday</td><td>Until 8:30 pm</td></tr><tr><td>Saturday</td><td>Opens 9:30 am</td></tr></table>
+<p class="note">Hours may change on holidays. Please call to confirm.</p>
+</div>
+</div>
+</div></section>
+</main>
+
+<footer><div class="wrap">© Gokul Dental Care · Iyerbungalow Branch, Madurai</div></footer>
+
+<div class="bar"><a class="btn" href="tel:08838255407">📞 Call</a><a class="btn wa" href="#book">💬 Book</a></div>
+
+<script>
+document.getElementById("go").addEventListener("click",function(){
+ var n=document.getElementById("n").value.trim()||"a patient";
+ var s=document.getElementById("s").value;
+ var d=document.getElementById("d").value.trim()||"any day";
+ var m="Hello Gokul Dental Care, I am "+n+". I would like to book an appointment for "+s+". Preferred day: "+d+".";
+ window.open("https://wa.me/918838255407?text="+encodeURIComponent(m),"_blank");
+});
+</script>
+</body>
+</html>
